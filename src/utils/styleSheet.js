@@ -1,3 +1,6 @@
 import {Dimensions} from 'react-native';
 const {height, width} = Dimensions.get('window');
-export {height, width};
+const heightRatio = height / 667;
+const widthRatio = width / 375;
+
+export {height, width, heightRatio, widthRatio };
