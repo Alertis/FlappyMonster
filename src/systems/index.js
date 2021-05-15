@@ -1,2 +1,4 @@
 import Physics from './physics';
-export default [Physics];
+import Plane from './plane';
+import Obstacle from './obstacle';
+export default [Physics,Plane,Obstacle];
