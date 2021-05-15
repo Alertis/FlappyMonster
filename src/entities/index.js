@@ -32,7 +32,7 @@ export default restart => {
             },
             {height: topObstacleHeight, width: Constants.TOP_PIPE_WIDTH},
         ),
-        Obstacle1: Obstacle(
+        Obstacle2: Obstacle(
             world,
             'bottom',
             {

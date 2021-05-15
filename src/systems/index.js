@@ -1,4 +1,4 @@
 import Physics from './physics';
-import Plane from './plane';
+import Monster from './monster';
 import Obstacle from './obstacle';
-export default [Physics,Plane,Obstacle];
+export default [Physics,Monster,Obstacle];
