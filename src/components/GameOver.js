@@ -77,10 +77,9 @@ const styles = StyleSheet.create({
   },
   gameOverText: {
     fontSize: heightRatio * 30,
-    fontWeight: 'bold',
     color: 'grey',
     marginBottom: heightRatio * 20,
-    fontFamily: 'crackman-regular',
+    fontFamily: "Plaguard",
   },
   container: {
     height: heightRatio * 30,

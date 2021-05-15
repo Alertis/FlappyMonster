@@ -73,6 +73,11 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
   },
+  score:{
+    fontFamily: "Plaguard",
+    color: '#FFD700',
+    fontSize: 28
+  }
 });
 
 export default App;
