@@ -10,6 +10,8 @@ import {
 import {width, height} from './src/utils/styleSheet';
 import FastImage from 'react-native-fast-image'
 import { GameEngine } from 'react-native-game-engine';
+import Entities from './src/entities';
+import Systems from './src/systems';
 const backgroundImage = require('./src/assets/bg.png');
 
 
@@ -24,7 +26,9 @@ function App() {
       <GameEngine
         ref={ref => {setGameEngine(ref)}}
         style={styles.gameContainer}
-        running={running}>
+        running={running}
+        entities={Entities()}
+        systems={Systems}>
           <StatusBar hidden={true} />
       </GameEngine>
     </View>
