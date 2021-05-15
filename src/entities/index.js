@@ -1,5 +1,7 @@
 import Matter from 'matter-js';
 import Monster from '../components/Monster';
+import Floor from '../components/Floor';
+import Ceiling from '../components/Ceiling';
 import Obstacle from '../components/Obstacle';
 import {height, width, heightRatio, widthRatio} from '../utils/styleSheet';
 import {getRandom,topObstacleHeight, bottomObstacleHeight} from '../utils/random';
@@ -41,5 +43,17 @@ export default restart => {
             },
             {height: bottomObstacleHeight, width: Constants.BOTTOM_PIPE_WIDTH},
         ),
+        Floor: Floor(
+            world,
+            'white',
+            {x: width / 2, y: height - heightRatio * 40},
+            {height:0.1, width: width},
+          ),
+          Ceiling: Ceiling(
+            world,
+            'white',
+            {x: width / 2, y: -heightRatio * 120},
+            {height: heightRatio * 120, width: width},
+          ),
     }
 }
