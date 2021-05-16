@@ -42,9 +42,17 @@
 </p>
 
 ### Ekran Görüntüleri
-<img src="https://raw.githubusercontent.com/Alertis/FlappyMonster/main/screenshots/1.png" width="200" />
-<img src="https://raw.githubusercontent.com/Alertis/FlappyMonster/main/screenshots/2.png" width="200" />
-<img src="https://raw.githubusercontent.com/Alertis/FlappyMonster/main/screenshots/3.png" width="200" />
+<p>
+    <a>
+        <img src="https://raw.githubusercontent.com/Alertis/FlappyMonster/main/screenshots/1.png" width="200" />
+    </a>
+    <a>
+        <img src="https://raw.githubusercontent.com/Alertis/FlappyMonster/main/screenshots/2.png" width="200" />
+    </a>
+    <a>
+        <img src="https://raw.githubusercontent.com/Alertis/FlappyMonster/main/screenshots/3.png" width="200" />
+    </a>
+</p>
 
 ### Kullanılan Paketler
 Uygulama geliştirme sırasında aşağıdaki paketlerden yararlanılmıştır.
