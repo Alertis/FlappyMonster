@@ -30,7 +30,6 @@
 * [Başlangıç](#başlangıç)
   * [Gereksinimler](#gereksinimler)
   * [Kurulum](#kurulum)
-* [Kullanımı](#kullanımı)
 * [İletişim](#iletişim)
 
 <!-- ABOUT THE PROJECT -->
@@ -43,8 +42,58 @@
 </p>
 
 ### Ekran Görüntüleri
-[![Product Name Screen Shot][product-screenshot-1]](https://github.com/Alertis/Travelify/blob/main/screenshots/screenshots.png)
+<img src="https://raw.githubusercontent.com/Alertis/FlappyMonster/main/screenshots/1.png" width="200" />
+<img src="https://raw.githubusercontent.com/Alertis/FlappyMonster/main/screenshots/2.png" width="200" />
+<img src="https://raw.githubusercontent.com/Alertis/FlappyMonster/main/screenshots/3.png" width="200" />
 
+### Kullanılan Paketler
+Uygulama geliştirme sırasında aşağıdaki paketlerden yararlanılmıştır.
+* [React Native](https://facebook.github.io/react-native/)
+* [React Native Game Engine](https://github.com/bberak/react-native-game-engine)
+* [Matter JS](https://www.npmjs.com/package/matter-js)
+* [React Native Fast Image](https://github.com/DylanVann/react-native-fast-image)
+
+<!-- GETTING STARTED -->
+## Başlangıç
+
+Projeyi kendi bilgisayarınıza kurmak için aşağıdaki adımları takip edebilirsiniz.
+### Gereksinimler
+
+Projeyi çalıştırabilmek için aşağıdaki paketleri yüklemeniz gerekmekte
+* npm
+```sh
+npm install npm@latest -g
+```
+* React Native
+```sh
+npm install -g react-native-cli
+```
+### Kurulum
+
+1. Github reposunu klonlayın
+```sh
+git clone https://github.com/Alertis/FlappyMonster
+```
+2. NPM paketlerini kurun
+```sh
+npm install
+```
+3. Link
+```sh
+react-native link
+```
+4. Android için çalıştırma
+``` sh
+react-native run-android
+```
+4. IOS için çalıştırma
+``` sh
+react-native run-ios
+```
+<!-- CONTACT -->
+## Iletişim
+
+Osman Yavuz Demir - [@AlertisDev](https://twitter.com/AlertisDev) - osmanyavuzdemir96@gmail.com
 <!-- MARKDOWN LINKS & IMAGES -->
 [build-shield]: https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square
 [contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
